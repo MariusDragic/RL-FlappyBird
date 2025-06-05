@@ -1,10 +1,10 @@
 # Monte Carlo vs SARSA: Reinforcement Learning Agents for Text Flappy Bird
 
-An in-depth comparison of two tabular RL methods—Monte Carlo and SARSA(λ)—on a simplified Text Flappy Bird environment. This study examines learning curves, value-function estimation, hyperparameter sensitivity, and environment configuration effects to highlight each algorithm’s strengths and limitations in sparse-reward, reactive tasks.
+An in-depth comparison of two tabular RL methods—Monte Carlo and SARSA(λ)—on a simplified Text Flappy Bird environment. This study examines learning curves, value-function estimation, hyperparameter sensitivity, and environment configuration effects to highlight each algorithm’s strengths and limitations.
 
 ## Introduction
 
-This project applies two classical reinforcement learning algorithms to Text Flappy Bird (TFB), a grid-based variant of the popular Flappy Bird game. The environment state at time _t_ is represented by a pair \ `(dx, dy)` \ where `dx` is the horizontal distance to the next pipe and `dy` is the vertical offset from the pipe’s center. The agent chooses between two actions—`flap (1)` or `do nothing (0)`—and receives a reward of +1 for each timestep it stays alive. 
+This project applies two classical reinforcement learning algorithms to Text Flappy Bird (TFB), a grid-based variant of the popular Flappy Bird game. The environment state at time _t_ is represented by a pair `(dx, dy)` where `dx` is the horizontal distance to the next pipe and `dy` is the vertical offset from the pipe’s center. The agent chooses between two actions: `flap (1)` or `do nothing (0)` and receives a reward of +1 for each timestep it stays alive. 
 
 The goal is to compare:
 
@@ -37,10 +37,6 @@ Monte Carlo performs optimally with γ = 0.95 and ε_decay = 0.99, favoring exte
 <p align="center">
   <img src="images/hyperparameters.png" alt="Hyperparameter influence" width="80%">
 </p>
-
-## Environment Configuration Effects
-
-Modifying pipe gap, height, and width drastically impacts agent performance. For example, increasing the pipe gap leads to higher mean scores as the agent can plan with more margin, while smaller gaps produce sharper learning challenges.
 
 ## Conclusion
 
