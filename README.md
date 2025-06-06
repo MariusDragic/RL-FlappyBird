@@ -1,8 +1,12 @@
 # Monte Carlo vs SARSA: Reinforcement Learning Agents for Text Flappy Bird
 
+## Overview
+
 An in-depth comparison of two tabular RL methods—Monte Carlo and SARSA(λ)—on a simplified Text Flappy Bird environment. This study examines learning curves, value-function estimation, hyperparameter sensitivity, and environment configuration effects to highlight each algorithm’s strengths and limitations.
 
-## Introduction
+A detailed report including theoretical background and extended results is available [here](https://github.com/MariusDragic/RL4Flap/blob/main/RL4Flap_Monte_VS_SARSA.pdf) for interested readers.
+
+## Monte Carlo VS Sarsa agent
 
 This project applies two classical reinforcement learning algorithms to Text Flappy Bird (TFB), a grid-based variant of the popular Flappy Bird game. The environment state at time _t_ is represented by a pair `(dx, dy)` where `dx` is the horizontal distance to the next pipe and `dy` is the vertical offset from the pipe’s center. The agent chooses between two actions: `flap (1)` or `do nothing (0)` and receives a reward of +1 for each timestep it stays alive. 
 
