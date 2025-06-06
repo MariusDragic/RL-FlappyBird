@@ -4,7 +4,7 @@
 
 An in-depth comparison of two tabular RL methods—Monte Carlo and SARSA(λ)—on a simplified Text Flappy Bird environment. This study examines learning curves, value-function estimation, hyperparameter sensitivity, and environment configuration effects to highlight each algorithm’s strengths and limitations.
 
-A detailed report including theoretical background and extended results is available [here](https://github.com/MariusDragic/RL4Flap/blob/main/RL4Flap_Monte_VS_SARSA.pdf) for interested readers.
+A detailed report including theoretical background and extended results is available [here](https://github.com/MariusDragic/RL4Flap/blob/main/RL4Flap_Monte_VS_Sarsa.pdf) for interested readers.
 
 ## Monte Carlo VS Sarsa agent
 
