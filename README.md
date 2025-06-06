@@ -49,6 +49,13 @@ Monte Carlo performs optimally with γ = 0.95 and ε_decay = 0.99, favoring exte
 - Proper tuning of γ and ε_decay is critical for both methods.
 - The simplified TFB environment enables straightforward tabular RL, but generalization to a full-screen version would require function approximation (e.g., Deep Q-Networks).
 
+## Requirements
+
+Install dependencies:
+```bash
+pip install -r requirement.txt
+```
+
 ## References
 
 1. Christodoulidis, S. *Text Flappy Bird Gym*. CentraleSupélec Research, 2024.  
